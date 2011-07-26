@@ -16,6 +16,10 @@ You will need to set the `REPO` environment variable, so the execution wrapper s
 
     $ export REPO=$HOME/.m2/repository
 
+You'll also need to set your Redis to go url:
+
+REDISTOGO_URL should point to the url from your redis to go account. You can sign up for free at redistogo.com
+
 # Run
 
 Now you can run your webapp with:
